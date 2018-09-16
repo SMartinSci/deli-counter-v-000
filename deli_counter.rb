@@ -20,4 +20,6 @@ end
 def now_serving
   if
     puts "Currently serving #{name}."
+  else
+    puts "There is nobody waiting to be served!"
   end
