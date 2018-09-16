@@ -18,7 +18,7 @@ def take_a_number(deli, name)
 end 
 
 def now_serving(deli)
-  if deli.shift
+  if deli > 0
     puts "Currently serving #{deli[2]}."
     deli.shift
   else
