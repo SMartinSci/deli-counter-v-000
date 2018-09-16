@@ -19,7 +19,7 @@ end
 
 def now_serving(deli)
   if deli.shift
-    puts "Currently serving #{deli[1]}."
+    puts "Currently serving #{deli[0]}."
   else
     puts "There is nobody waiting to be served!"
   end
