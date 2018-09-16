@@ -19,4 +19,5 @@ end
 
 def now_serving
   if
-    puts ""
+    puts "Currently serving #{name}."
+  end
